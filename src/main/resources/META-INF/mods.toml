@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[37,)"
+license="MIT"
+[[mods]]
+modId="pandoraproject"
+version="1.0"
+displayName="The Pandora Project"
+#displayURL="set this up later"
+
+logoFile="logo.png"
+# A text field displayed in the mod UI
+credits="MeetmyWagon23, Jaroblakirk, Aes201, ----, ----"
+authors="MeetmyWagon23"
+description='''
+This Mod is a passion project. This project officially started 12/9/21. This Mod attempts to bring The planet Pandora of the
+Avatar franchise into Minecraft as a fully playable mod. We are in no way, shape, or form affiliated with 20th Century Fox,
+Lightstorm Entertainment, Dune Entertainment, or Ingenious Film Partners. As we have said this is a Passion Project and is
+made by lovers of the franchise and its books. We very much hope you enjoy this mod! it has/will take(n) us a very long time.
+'''
+[[dependencies.pandoraproject]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[37,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.pandoraproject]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.17.1,1.18)"
+    ordering="NONE"
+    side="BOTH"
